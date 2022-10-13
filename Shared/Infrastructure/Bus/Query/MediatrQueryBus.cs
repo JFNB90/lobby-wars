@@ -26,8 +26,6 @@ namespace Shared.Infrastructure.Bus.Query
         {
             var handler = GetWrappedHandlers<TResponse>(query);
 
-            //return await _mediator.Send<TResponse>((IRequest<TResponse>) query);
-
             return await handler.Handle(query, _serviceProvider);
         }
 
