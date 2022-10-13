@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{50571580-B791-4B6F-AC6E-869C7EBC4CA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{732DEEB8-9008-48B3-A10C-8C184B735F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpAPI", "HttpAPI\HttpAPI.csproj", "{8626D811-DD6D-4BB3-B03B-7EC2D1A818EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signaturit", "Signaturit\Signaturit.csproj", "{F540D8E2-33F0-4B7D-88CA-4E0AF3031086}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{1C5D6822-D010-4849-B039-4D5DBC201092}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Signaturit", "Signaturit", "{750D7284-2C7F-435A-A30A-40730AF75AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{81DD665D-F53B-4621-A005-31FBAFC8B3DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "Console\ConsoleApp.csproj", "{752CEC75-58FF-4C7E-9CB4-091C2716545A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8626D811-DD6D-4BB3-B03B-7EC2D1A818EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8626D811-DD6D-4BB3-B03B-7EC2D1A818EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8626D811-DD6D-4BB3-B03B-7EC2D1A818EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8626D811-DD6D-4BB3-B03B-7EC2D1A818EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F540D8E2-33F0-4B7D-88CA-4E0AF3031086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F540D8E2-33F0-4B7D-88CA-4E0AF3031086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F540D8E2-33F0-4B7D-88CA-4E0AF3031086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F540D8E2-33F0-4B7D-88CA-4E0AF3031086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DD665D-F53B-4621-A005-31FBAFC8B3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DD665D-F53B-4621-A005-31FBAFC8B3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DD665D-F53B-4621-A005-31FBAFC8B3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DD665D-F53B-4621-A005-31FBAFC8B3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752CEC75-58FF-4C7E-9CB4-091C2716545A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752CEC75-58FF-4C7E-9CB4-091C2716545A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752CEC75-58FF-4C7E-9CB4-091C2716545A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752CEC75-58FF-4C7E-9CB4-091C2716545A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8626D811-DD6D-4BB3-B03B-7EC2D1A818EA} = {750D7284-2C7F-435A-A30A-40730AF75AC7}
+		{F540D8E2-33F0-4B7D-88CA-4E0AF3031086} = {50571580-B791-4B6F-AC6E-869C7EBC4CA1}
+		{750D7284-2C7F-435A-A30A-40730AF75AC7} = {1C5D6822-D010-4849-B039-4D5DBC201092}
+		{81DD665D-F53B-4621-A005-31FBAFC8B3DD} = {50571580-B791-4B6F-AC6E-869C7EBC4CA1}
+		{752CEC75-58FF-4C7E-9CB4-091C2716545A} = {750D7284-2C7F-435A-A30A-40730AF75AC7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21942799-732E-4ABD-B186-ABD8972AF97B}
+	EndGlobalSection
+EndGlobal
